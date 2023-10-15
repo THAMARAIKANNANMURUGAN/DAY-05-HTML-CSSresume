@@ -1,0 +1,123 @@
+
+body{
+    background:rgb(81, 174, 255);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+
+}
+.container{
+    position:relative;
+    width:100%;
+    max-width:1000px;
+    min-height:1000px;
+    background: rgb(255, 255, 255);
+     grid-template-columns: 1fr 2fr;
+    display:grid; 
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+
+}
+.container .leftside{
+    position: relative;
+    background-color:#089beb;
+    padding:50px;
+}
+
+.profiletext{
+    position: relative;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:20px;
+    font-family: ;
+    border-bottom:2px solid rgb(0, 0, 0);
+    margin-bottom:20px;
+    
+    
+}
+.profiletext h4{
+    color:black;
+    font-size:19px;
+    text-transform:uppercase;
+    text-align:center;
+    margin-top:20px;
+    font-weight:600;
+    line-height:1.4em;
+
+}
+.profiletext h4 span{
+    font-size:0.8em;
+    font-weight:600;
+
+}
+.container .rightside{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    padding:40px;
+}
+.my{
+    border-radius:150px;
+    height:219px;
+    width:200px;
+    display: flex;
+    
+}
+li{
+    display: flex;
+ZZ
+    height: 45px
+    
+    
+    
+}
+.contactinfo{
+    display:inline-block;
+
+}
+.title{
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom:1px;
+    display: inline-block;
+
+    
+}
+.contactinfo ul{
+    position: relative;
+
+}
+.contactinfo ul li{
+    position: relative;
+    margin: 10px 0;
+    cursor:pointer;
+    list-style:none;
+}
+.contactinfo ul li .icon{
+    display:inline-block;
+    width:30px;
+    font-size:18px;
+    color:black;
+    
+}
+.contactinfo ul li {
+    color:rgb(0, 0, 0);
+
+}
+.rightside{
+ 
+
+}
+.skills{
+    position:relative;
+    display: flex;
+    width:100%;
+    display:grid;
+    grid-template-columns:150px;
+}
+.skills.box.percent{
+    position:absolute;
+    top:0;
+    bottom:;
+}
